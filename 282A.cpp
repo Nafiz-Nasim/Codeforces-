@@ -5,37 +5,23 @@
 using namespace std;
 int main()
 {
-string number;
-int i,count=0;
+string name;
+int i, number,value_for_X=0;
  cin>>number;
- for (i=0;i<number.size();i++)
+ for (i=1;i<=number;i++)
  {
-   if(number[i]==number[i+1])
+   cin>>name;
+   if(name=="X++" || name=="++X")
    {
-    count++;
- 
-   
-      if(count==6)
-      {
-        break;
-      }
-      else 
-      {
-         continue;
-      }
+    value_for_X++;
    }
    else{
-    count=0;
+    value_for_X--;
    }
      
  }
- if(count==6)
- {
-    cout<<"YES"<<endl;
- }
- else{
-    cout<<"NO"<<endl;
- }
+ 
+    cout<<value_for_X<<endl;
 
 
 
