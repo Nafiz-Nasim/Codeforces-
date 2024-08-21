@@ -1,4 +1,4 @@
-//string controling
+
 #include<iostream>
 
 
@@ -20,7 +20,7 @@ for(int i=0;i<5;i++)
    {
     if(matrix[i][j]==1)
     {
-      value=abs(3-i)+abs(3-j);
+      value=abs(2-i)+abs(2 -j);
      cout<<value;
     }
    }
