@@ -8,7 +8,7 @@ int main()
  maximum=(max(A,max(B,C)));
   mid=A+B+C-maximum-minimum;
  cout<<minimum<<endl<<mid<<endl<<maximum<<endl;
- cout<<" "<<endl;
+ cout<<endl;
  cout<<A<<endl<<B<<endl<<C<<endl;
  
     return 0;
