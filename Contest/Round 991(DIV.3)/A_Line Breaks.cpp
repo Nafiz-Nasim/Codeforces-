@@ -1,4 +1,3 @@
-
 #include <bits/stdc++.h>
 using namespace std;
 int main()
@@ -11,7 +10,6 @@ while(test--)
 cin>>n>>m;
 cin.ignore();
 int sum=0,count=0;
-
 while(n--)
 {
     string input;
@@ -21,14 +19,8 @@ while(n--)
     {
         count++;
     }
-
 }
 cout<<count<<endl;
-
-
 }
-
-
-
 return 0;
 }
