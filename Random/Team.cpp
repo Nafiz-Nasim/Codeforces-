@@ -12,5 +12,6 @@ int main()
         if ((a == 1 & b == 1) || (b == 1 & c == 1)||(c == 1 & a == 1)) count++;
     }
     cout << count;
+  
     return 0;
 }
