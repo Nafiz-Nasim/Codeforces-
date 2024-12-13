@@ -13,5 +13,6 @@ while(test--)
  if(binary_search(cf.begin(),cf.end(),input)) cout<<"YES"<<endl;
  else cout<<"NO"<<endl;
 }
+ 
   return 0;
 }
